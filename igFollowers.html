@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload Website</title>
+    <link rel="stylesheet" type="text/css" href="igFollowers.css">
+</head>
+<body>
+    <div id="Background">
+        <div id="containerDiv" class="container">
+            <a href="Main.html" id="MainButton">Home</a>
+            <h1 id="headerText1">Instagram Follow Sorter</h1>
+            <a id="urlLink1" href="https://accountscenter.instagram.com/info_and_permissions/dyi/">Request List Here</a>
+            <div id="header1">Enter Followers List
+                <input type="file" id="file1" class="upload-button">
+            </div>
+            <div id="header2">Enter Following List
+                <input type="file" id="file2" class="upload-button">
+            </div>          
+            <button onclick="showURL()" id="submit-button">Submit Files</button> 
+            <div class="Container">
+                <div id="results" class="results"></div>
+                <a id="urlLink2" href="https://www.instagram.com/" style="visibility: hidden">Login To Instagram Here</a>
+            </div>        
+        </div>
+    </div>
+    <script src="igFollowers.js"></script>
+</body>
+</html>
+
