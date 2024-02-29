@@ -60,7 +60,7 @@ select, input[type="number"] {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #151515;
+    background: #151515; /*Background Color*/
   }
   
   #rangeValue {
