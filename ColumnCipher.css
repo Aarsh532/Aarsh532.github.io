@@ -1,13 +1,13 @@
 #MainButton{
     float: left;
     display: block;
-    color: black;
+    color: chartreuse;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: larger;
     font-weight: bold;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 body {
@@ -19,12 +19,10 @@ body {
 }
 
 h1 {
-    color: #333;
-}
-
-#title1{
+    color: chartreuse;
     text-align: center;
-    color: green;
-    display: inline-block;
-    padding-right: 110px;
+    padding-top: 10px;
+    background: black;
+    height: 50px;
+    margin: 10px
 }
