@@ -9,3 +9,22 @@
     font-weight: bold;
     padding-top: 25px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#title1{
+    text-align: center;
+    color: green;
+    display: inline-block;
+    padding-right: 110px;
+}
