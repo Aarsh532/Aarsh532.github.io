@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Column Cipher Enhanced</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CurrencyConverter.css">
 </head>
 <body>
 
@@ -19,12 +19,13 @@
             <label for="encrypt-key">Key</label>
             <input type="text" id="encrypt-key" placeholder="Enter encryption key">
         </div>
-        <div class="form-group slider-container">
-            <label for="encrypt-slider">Shift (1-16)</label>
-            <input type="range" id="encrypt-slider" min="1" max="16" value="1">
-            <span id="encrypt-slider-value">1</span>
-        </div>
-        <button id="encrypt-button" class="action-button">Encrypt</button>
+        <body id="sliderBody">
+            <div>
+                <span id="rangeValue">0</span>
+                <Input class="range" type="range" value="0" min="1" max="16" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+            </div>
+        </body>
+        <button id="encryptButton" class="button-28" role="button">Encrypt</button>
         <div class="result-group">
             <label for="encrypt-result">Result</label>
             <textarea id="encrypt-result" readonly></textarea>
@@ -41,12 +42,13 @@
             <label for="decrypt-key">Key</label>
             <input type="text" id="decrypt-key" placeholder="Enter decryption key">
         </div>
-        <div class="form-group slider-container">
-            <label for="decrypt-slider">Shift (1-16)</label>
-            <input type="range" id="decrypt-slider" min="1" max="16" value="1">
-            <span id="decrypt-slider-value">1</span>
-        </div>
-        <button id="decrypt-button" class="action-button">Decrypt</button>
+        <body id="sliderBody">
+            <div>
+                <span id="rangeValue">0</span>
+                <Input class="range" type="range" value="0" min="1" max="16" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+            </div>
+        </body>
+        <button id="decryptButton" class="button-28" role="button">Decrypt</button>
         <div class="result-group">
             <label for="decrypt-result">Result</label>
             <textarea id="decrypt-result" readonly></textarea>
