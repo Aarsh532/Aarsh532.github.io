@@ -1,63 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Column Cipher Enhanced</title>
-<link rel="stylesheet" href="CurrencyConverter.css">
-</head>
-<body>
+<html>
+    <head id = "Header">
+        <title>Columnar Transposition Cipher</title>
+        <link rel="stylesheet" type="text/css" href="ColumnCipher.css">
+        <a href="Main.html" id="MainButton">Home</a>
+    </head>
+    <body>
 
-<div class="container">
-    <section id="encryption" class="cipher-section">
-        <h2>Encryption</h2>
-        <div class="form-group">
-            <label for="encrypt-input">Input Text</label>
-            <input type="text" id="encrypt-input" placeholder="Enter text to encrypt">
-        </div>
-        <div class="form-group">
-            <label for="encrypt-key">Key</label>
-            <input type="text" id="encrypt-key" placeholder="Enter encryption key">
-        </div>
-        <div id="sliderBody">
-            <div>
-                <span id="rangeValue">0</span>
-                <Input class="range" type="range" value="0" min="1" max="16" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
-            </div>
-        </div>
-        <button id="encryptButton" class="button-28" role="button">Encrypt</button>
-        <div class="result-group">
-            <label for="encrypt-result">Result</label>
-            <textarea id="encrypt-result" readonly></textarea>
-        </div>
-    </section>
-
-    <section id="decryption" class="cipher-section">
-        <h2>Decryption</h2>
-        <div class="form-group">
-            <label for="decrypt-input">Input Text</label>
-            <input type="text" id="decrypt-input" placeholder="Enter text to decrypt">
-        </div>
-        <div class="form-group">
-            <label for="decrypt-key">Key</label>
-            <input type="text" id="decrypt-key" placeholder="Enter decryption key">
-        </div>
-        <div id="sliderBody">
-            <div>
-                <span id="rangeValue">0</span>
-                <Input class="range" type="range" value="0" min="1" max="16" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
-            </div>
-        </div>
-        <button id="decryptButton" class="button-28" role="button">Decrypt</button>
-        <div class="result-group">
-            <label for="decrypt-result">Result</label>
-            <textarea id="decrypt-result" readonly></textarea>
-        </div>
-    </section>
-</div>
-
-<script>
-</script>
-
-</body>
+    </body>
 </html>
