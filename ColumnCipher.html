@@ -22,8 +22,11 @@
                 <div class="subGroup1">
                     <span id="rangeValue">0</span>
                     <input type="range" min="1" max="16" value="50" class="slider" id="myRange" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
-                    <button class="button" id="EncryptButton" role="button">Encrypt</button>
+                    <button class="button" id="EncryptButton" role="button" onclick='Encrypt()'>Encrypt</button>
                 </div>
+            </div>
+            <div class="Output">
+                <div id="results" class="results"></div>
             </div>
         </div>
     </body>
