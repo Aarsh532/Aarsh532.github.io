@@ -122,6 +122,6 @@ select, input[type="string"] {
   }
   
   .button:active {
-    box-shadow: chartreuse 0 3px 7px inset;
+    box-shadow: chartreuse 0.25px 0.25px 3px 3px inset;
     transform: translateY(2px);
   }
