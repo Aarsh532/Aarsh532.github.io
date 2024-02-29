@@ -28,7 +28,7 @@ h1 {
 }
 
 select, input[type="string"] {
-    width: 200px;
+    width: 80%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
