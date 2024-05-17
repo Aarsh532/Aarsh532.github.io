@@ -56,10 +56,6 @@ select, input[type="string"] {
     transform: translate(-50px, 2px);
 }
 
-#myRange{
-    padding-left: 20px;
-}
-
 #KeyToEncrypt{
     width: 20%;
 }
@@ -125,3 +121,14 @@ select, input[type="string"] {
     box-shadow: chartreuse 0.25px 0.25px 3px 3px inset;
     transform: translateY(2px);
   }
+
+  .results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eef;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 130px;
+}
