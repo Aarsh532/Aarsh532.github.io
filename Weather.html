@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<a href="Main.html" id="MainButton">Home</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <form id="locationForm">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
+            <button type="submit">Get Forecast</button>
+        </form>
+        <div id="forecast"></div>
+    </div>
+    <script src="Weather.js"></script>
+</body>
+</html>
